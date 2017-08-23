@@ -5,6 +5,11 @@ import java.util.Scanner;
 /**
  * Created by Eswaran on 18-Aug-17.
  */
+
+/*
+Best case complexity = o(nlogn)
+Worst case complexity = o(n^2)
+*/
 public class quickSort {
     public static void main (String args[])
     {

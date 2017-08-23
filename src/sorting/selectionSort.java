@@ -5,6 +5,12 @@ import java.util.Scanner;
 /**
  * Created by Eswaran on 16-Aug-17.
  */
+
+/*
+Best case= 0(n^2)
+Worst case = o(n^2)
+*/
+
 public class selectionSort
 {
     public static void main(String args[])

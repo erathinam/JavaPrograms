@@ -1,8 +1,16 @@
+
+
 package sorting;
 import java.util.Scanner;
 /**
  * Created by Eswaran on 18-Aug-17.
  */
+
+/*
+Best case complexity = o(n)
+Worst case complexity = o(n^2)
+*/
+
 public class bubblesort {
     public static void main(String [] args){
     Scanner sc = new Scanner(System.in);
