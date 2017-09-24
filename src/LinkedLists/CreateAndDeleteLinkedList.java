@@ -4,8 +4,8 @@ package LinkedLists;
  * Created by Eswaran on 11-Sep-17.
  */
 public class CreateAndDeleteLinkedList {
-    int data;
-    CreateAndDeleteLinkedList next;
+    public int data;
+    public CreateAndDeleteLinkedList next;
 
     public CreateAndDeleteLinkedList(int data)
     {

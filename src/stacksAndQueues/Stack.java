@@ -8,21 +8,24 @@ import java.util.EmptyStackException;
  */
 public class Stack {
     CreateAndDeleteLinkedList top;
+    int size=0;
     public void push(int number)
     {   if(top==null)
         {CreateAndDeleteLinkedList node=new CreateAndDeleteLinkedList(number);
-        top=node;}
+        top=node;size=1;}
         else
     {
         CreateAndDeleteLinkedList node=new CreateAndDeleteLinkedList(number);
         node.next=top;
         top=node;
+        size++;
     }
     }
     public int pop()
     {   try {
         int data = top.data;
         top = top.next;
+        size--;
         return data;
     }
     catch(Exception e){
